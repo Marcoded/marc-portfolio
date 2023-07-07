@@ -15,7 +15,7 @@ const ProjectsCarousel = () => {
         <Project
           name="Photogram"
           description="A full-stack social media clone featuring Google sign-in using Devise gem & Omniauth, dark mode, client-side image validation, and much more."
-          photoRef="/photogram-full-preview.png"
+          photoRef="./photogram-full-preview.png"
           readMeUrl="https://github.com/marcoded/social-media-clone-react-rails-oauth2#readme"
           hostedUrl="https://mysite-8fqi.onrender.com/"
           techUsed={["React", "Rails", "Tailwind CSS"]}
@@ -30,7 +30,7 @@ const ProjectsCarousel = () => {
         <Project
           name="Arrival memory game"
           description="A card memory game built with React, Vite, and Tailwind CSS."
-          photoRef="/memory-game-full-preview.png"
+          photoRef="./memory-game-full-preview.png"
           readMeUrl="https://github.com/marcoded/arrival-memory-card-react"
           hostedUrl="https://marcoded.github.io/arrival-memory-card-react/"
           techUsed={["React", "Vite", "Tailwind CSS"]}
@@ -45,7 +45,7 @@ const ProjectsCarousel = () => {
         <Project
           name="Where is Waldo"
           description="A photo tagging app built with React and Ruby on Rails. When a user clicks an image, the validation happens in the back-end."
-          photoRef="/where-is-waldo-preview.png"
+          photoRef="./where-is-waldo-preview.png"
           readMeUrl="https://github.com/marcoded/arrival-memory-card-react"
           hostedUrl="https://marcoded.github.io/arrival-memory-card-react/"
           techUsed={["React", "Vite", "Tailwind CSS"]}
