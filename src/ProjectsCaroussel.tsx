@@ -20,8 +20,8 @@ const ProjectsCarousel = () => {
           name="Photogram"
           description="A full-stack social media clone featuring Google sign-in using Devise gem & Omniauth, dark mode, client-side image validation, and much more."
           photoRef={photogramPreview}
-          readMeUrl="https://github.com/marcoded/social-media-clone-react-rails-oauth2#readme"
-          hostedUrl="https://mysite-8fqi.onrender.com/"
+          readMeUrl="https://github.com/Marcoded/social-media-clone-react-rails-oauth2/blob/main/README.md"
+          hostedUrl="https://project-photogram.fly.dev/"
           techUsed={["React", "Rails", "Tailwind CSS"]}
         />
       </motion.div>
@@ -35,7 +35,7 @@ const ProjectsCarousel = () => {
           name="Arrival memory game"
           description="A card memory game built with React, Vite, and Tailwind CSS."
           photoRef={memoryGamePreview}
-          readMeUrl="https://github.com/marcoded/arrival-memory-card-react"
+          readMeUrl="https://github.com/Marcoded/arrival-memory-card-react"
           hostedUrl="https://marcoded.github.io/arrival-memory-card-react/"
           techUsed={["React", "Vite", "Tailwind CSS"]}
         />
@@ -50,7 +50,7 @@ const ProjectsCarousel = () => {
           name="Where is Waldo"
           description="A photo tagging app built with React and Ruby on Rails. When a user clicks an image, the validation happens in the back-end."
           photoRef={waldoPreview}
-          readMeUrl="https://github.com/marcoded/arrival-memory-card-react"
+          readMeUrl="https://github.com/Marcoded/where-is-waldo/blob/main/README.md"
           hostedUrl="https://marcoded.github.io/arrival-memory-card-react/"
           techUsed={["React", "Vite", "Tailwind CSS"]}
         />

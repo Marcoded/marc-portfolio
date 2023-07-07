@@ -31,7 +31,9 @@ const Project = (props: ProjectProps) => {
         </h1>
         <div>{props.description}</div>
         <div className="my-5 flex justify-start align-middle">
-          <img src={gitHubLogo} className="mr-3 h-[1rem]" alt="" /> Read me
+          <a className="flex" href={props.readMeUrl} target="_blank" rel="noopener noreferrer">
+            <img src={gitHubLogo} className="mr-3 h-[1rem]" alt="" /> Read me
+          </a>
           {compileTechUsed()}
         </div>
       </div>
@@ -45,6 +47,7 @@ const Project = (props: ProjectProps) => {
         href={props.hostedUrl}
         target="_blank"
         rel="noopener noreferrer"
+        
       >
         <img
           className="mx-auto mt-5 h-auto max-h-[8rem] sm:max-h-[10rem] md:max-h-[10rem] md:min-h-[7rem] lg:max-h-[10rem] w-full object-cover rounded-md transition-all duration-300"
